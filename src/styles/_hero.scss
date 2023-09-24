@@ -1,0 +1,22 @@
+@use 'variaveis';
+
+.hero {
+    img {
+        width: 100%;
+    }
+
+    &__content {
+        display: block;
+        justify-content: center;
+        margin-bottom: 24px;
+        border-bottom: 2px solid variaveis.$corTextoPrincipal;
+        
+        h1 {
+            text-align: center;
+        }
+
+        p {
+            text-align: center;
+        }
+    }
+}
